@@ -5,7 +5,7 @@ from pydantic import BaseSettings, Field
 
 
 class Settings(BaseSettings):
-    app_name: str = "Smart Identity Generator"
+    app_name: str = "Smart Identity Generator" 
     api_prefix: str = "/api"
     database_url: str = "sqlite:///./smart_id.db"
     storage_dir: Path = Path("storage")
